@@ -1,4 +1,6 @@
-
+require_relative 'meal.rb'
+require_relative 'waiter.rb'
+require 'pry'
 class Customer
     attr_accessor :name, :age
 

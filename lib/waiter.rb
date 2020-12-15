@@ -1,3 +1,5 @@
+require_relative 'meal.rb'
+require_relative 'customer.rb'
 class Waiter
     attr_accessor :name, :yrs_experience
     @@all = []
@@ -26,5 +28,6 @@ def best_tipper
     end
     best_tipped_meal.customer
 end
-
 end
+
+
